@@ -1,0 +1,10 @@
+#container{
+    height: 300px;
+    width: 90vw;
+    background-color: #f0f0f0;
+    border: 1px solid #100b0b;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around
+}
