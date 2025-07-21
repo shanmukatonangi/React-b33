@@ -30,6 +30,12 @@ const App = () => {
     else if(!pass.match(/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d@$!%*?&]{6,}$/)) {
       setErrors({email: '', pass: 'Password must contain at least one uppercase letter, one lowercase letter, and one number'})
     }
+
+   else{
+
+    emailinp.current.value = ''
+    passinp.current.value = ''
+   }
  }
 
 
