@@ -46,6 +46,8 @@ const Home = () => {
     }
 
 ])
+
+localStorage.setItem('products',JSON.stringify(products))
 let searchfeild=useRef()
 
 let [cart,setCart]=useState([])
